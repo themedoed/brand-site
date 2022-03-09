@@ -43,12 +43,12 @@ a {
   line-height: 36px;
 }
 
-.menu-link{
-    transition: all .5s;
+.menu-link {
+  transition: all .5s;
 }
 
-.menu-link:hover{
-    color: #58A0A3;
+.menu-link:hover {
+  color: #58A0A3;
 }
 
 .contact-link {
@@ -136,82 +136,202 @@ a {
     0 -1px 1px #cccccc;
   position: absolute;
   bottom: -20px;
-  left: 50px;
+  left: 30px;
   z-index: -5;
 }
 
-.whoweare__info{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 57px;
+.whoweare__info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 57px;
 }
 
-.whoweare__info-block{
-    max-width: 526px;
+.whoweare__info-block {
+  max-width: 526px;
 }
 
-.whoweare__info-text{
-    margin-bottom: 18px;
+.whoweare__info-text {
+  margin-bottom: 18px;
 }
 
-.whoweare__info-text span{
-    font-weight: 700;
+.whoweare__info-text span {
+  font-weight: 700;
 }
 
-.whoweare__info-list{
-    margin-top: 15px;
-    list-style-position: inside;
-    line-height: 35.2px;
+.whoweare__info-list {
+  margin-top: 15px;
+  list-style-position: inside;
+  line-height: 35.2px;
 }
 
-.whoweare__info-list-item{
-    padding-left: 10px;
+.whoweare__info-list-item {
+  padding-left: 10px;
 }
 
-.whoweare__features{
-    margin-top: 193px;
-    max-width: 746px;
-    position: relative;
+.whoweare__features {
+  margin-top: 193px;
+  max-width: 746px;
+  position: relative;
 }
 
-.whoweare__features-item{
-    margin-bottom: 51px;
+.whoweare__features-item {
+  margin-bottom: 51px;
 }
 
-.whoweare__features-title{
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 54px;
+.whoweare__features-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
 }
 
-.whoweare__features-text{
-    margin-top: 10px;
+.whoweare__features-text {
+  margin-top: 10px;
 }
 
-.whoweare__features-text span{
-    font-weight: 700;
+.whoweare__features-text span {
+  font-weight: 700;
 }
 
-.gotaproject-link{
-    font-style: italic;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 54px;
+.gotaproject-link {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
 }
 
 .gotaproject-link svg {
-    margin-left: 50px;
-    transition: all .5s ease-in-out;
-    width: 100px;
+  margin-left: 50px;
+  transition: all .5s ease-in-out;
+  width: 100px;
 }
 
-.gotaproject-link:hover svg{
-    margin-left: 70px;
+.gotaproject-link:hover svg {
+  margin-left: 70px;
 }
 
-.whoweare__bg-el-1{
-    position: absolute;
-    z-index: -10;
-    bottom: 380px;
-    right: -490px;
+.whoweare__bg-el-1 {
+  position: absolute;
+  z-index: -10;
+  bottom: 380px;
+  right: -490px;
+}
+
+.whatwedo {
+  margin-top: 172px;
+}
+
+.whatwedo-title {
+  margin-left: 80px;
+  line-height: 50px;
+  position: relative;
+}
+
+.whatwedo-decor-el {
+  position: absolute;
+  top: -70px;
+  left: 180px;
+}
+
+.whatwedo__panel {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.whatwedo__panel-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.whatwedo__panel-item {
+  width: 416px;
+  height: 241px;
+  background-color: #EFEFEF;
+  padding: 22px 33px 33px 22px;
+  position: relative;
+}
+
+.whatwedo__panel-item-text {
+  max-width: 230px;
+}
+
+.whatwedo__panel-item-img {
+  position: absolute;
+  bottom: 25px;
+  right: 30px;
+}
+
+.whatwedo__panel-item-img-extra {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+}
+
+.whatwedo-text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.howwedo-text {
+  margin-top: 33px;
+  position: relative;
+  max-width: 855px;
+}
+
+.howwedo-bg-el-1 {
+  position: absolute;
+  right: -440px;
+  top: -70px;
+}
+
+.howwedo__panel {
+  margin-top: 87px;
+}
+
+.howwedo__panel-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 99px;
+}
+
+.howwedo__panel-item {
+  max-width: 416px;
+}
+
+.howwedo__panel-item-title {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.howwedo__panel-item-text {
+  line-height: 28px;
+  height: 56px;
+}
+
+.howwedo__panel-item__tags {
+  margin-top: 12px;
+  max-width: 416px;
+}
+
+.howwedo__panel-item__tags-row{
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.howwedo__panel-item__tags-item {
+  color: #58A0A3;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 8px 16px;
+  border: 1px solid #58A0A3;
+  border-radius: 43px;
+  margin-right: 12px;
+  white-space: nowrap;
 }
