@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/jquery.fancybox.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.png" />
   </head>
   <body>
     <!-- Первый экран -->
@@ -22,19 +23,24 @@
       <div class="container">
         <nav>
           <div class="menu">
-            <img class="logo-img" src="images/home/logo.png" alt="Logo-img" />
+            <!-- <img class="logo-img" src="images/home/logo-name.png" alt="Logo-img" /> -->
+            <div class="logo">
+              <img class="logo-img" src="images/home/logo.png" alt="">
+              <p class="logo-text">Complete<br>Stack</p>
+            </div>
+            
             <ul class="menu__list">
               <li class="menu-item">
-                <a class="menu-link" href="#whoweare">Who we are</a>
+                <a class="menu-link nav-link" href="#whoweare">Who we are</a>
               </li>
               <li class="menu-item">
-                <a class="menu-link" href="#whatwedo">What We Do</a>
+                <a class="menu-link nav-link" href="#whatwedo">What We Do</a>
               </li>
               <li class="menu-item">
-                <a class="menu-link" href="#howwedo">How We do</a>
+                <a class="menu-link nav-link" href="#howwedo">How We do</a>
               </li>
             </ul>
-            <a class="contact-link" href="#contact">Contact Us</a>
+            <a class="contact-link nav-link" href="#contact">Contact Us</a>
           </div>
         </nav>
 
@@ -145,7 +151,7 @@
             </p>
           </div>
 
-          <a class="gotaproject-link" href="#"
+          <a class="gotaproject-link nav-link" href="#contact"
             >Got a Project?
             <svg
               width="103"
@@ -250,7 +256,7 @@
     </div>
 
     <!-- How We Do -->
-    <div class="howwedo">
+    <div class="howwedo" id="howwedo">
       <div class="container">
         <h3 class="block-title">
           How We Do
@@ -360,7 +366,6 @@
                 <div class="howwedo__panel-item__tags-row">
                   <div class="howwedo__panel-item__tags-item">Mind Map</div>
                   <div class="howwedo__panel-item__tags-item">SRS</div>
-                  <div class="howwedo__panel-item__tags-item">ГОСТ</div>
                 </div>
               </div>
             </div>
@@ -475,6 +480,186 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Porfolio -->
+    <div class="portfolio">
+      <div class="container">
+        <h3 class="block-title">
+          Portfolio
+          <span>Portfolio</span>
+          <img
+            class="portfolio-decor-el-1"
+            src="images/portfolio/portfolio-decor-el-1.png"
+            alt=""
+          />
+        </h3>
+        <div class="portfolio__slider">
+          <div class="portfolio__slider-item">
+            <div class="portfolio__slider-item-inner">
+              <div class="portfolio__slider-item-info">
+                <p class="portfolio__slider-item-title">CovLab</p>
+                <div class="portfolio__slider-item-text">
+                  A website selling covid tests. The site provides an
+                  opportunity to purchase various test kits online and the
+                  detailed description of their use.
+                </div>
+                <p class="portfolio__slider-item-num">01/05</p>
+              </div>
+              <img
+                class="portfolio__slider-item-img"
+                src="images/portfolio/portfolio__sldier-img-1.png"
+                alt="Project-img"
+              />
+            </div>
+          </div>
+
+          <div class="portfolio__slider-item">
+            <div class="portfolio__slider-item-inner">
+              <div class="portfolio__slider-item-info">
+                <p class="portfolio__slider-item-title">Restority</p>
+                <div class="portfolio__slider-item-text">
+                  A platform for the creating, visualization and storage of
+                  user’s autobiographical stories. This platform is created for
+                  the older people who want to preserve the memories for their
+                  family's future generations. There is also a mobile version
+                  and a tablet version.
+                </div>
+                <p class="portfolio__slider-item-num">02/05</p>
+              </div>
+              <img
+                class="portfolio__slider-item-img"
+                src="images/portfolio/portfolio__sldier-img-2.png"
+                alt="Project-img"
+              />
+            </div>
+          </div>
+
+          <div class="portfolio__slider-item">
+            <div class="portfolio__slider-item-inner">
+              <div class="portfolio__slider-item-info">
+                <p class="portfolio__slider-item-title">Bullion Network</p>
+                <div class="portfolio__slider-item-text">
+                  A platform for buying and selling gold and silver bullion in
+                  Melbourne. In addition to the shop page, the site displays
+                  live prices of the best precious metals and the information
+                  about them. This data is constantly updated.
+                </div>
+                <p class="portfolio__slider-item-num">03/05</p>
+              </div>
+              <img
+                class="portfolio__slider-item-img"
+                src="images/portfolio/portfolio__sldier-img-3.png"
+                alt="Project-img"
+              />
+            </div>
+          </div>
+
+          <div class="portfolio__slider-item">
+            <div class="portfolio__slider-item-inner">
+              <div class="portfolio__slider-item-info">
+                <p class="portfolio__slider-item-title">PPData</p>
+                <div class="portfolio__slider-item-text">
+                  A web service that allow to display the dynamics of changes in
+                  tree vegetation over time to monitor the condition of trees
+                  and prepare a package of measures for their conservation. A
+                  map is displayed with labels of forest areas and the
+                  information for each tree.
+                </div>
+                <p class="portfolio__slider-item-num">04/05</p>
+              </div>
+              <img
+                class="portfolio__slider-item-img"
+                src="images/portfolio/portfolio__sldier-img-4.png"
+                alt="Project-img"
+              />
+            </div>
+          </div>
+
+          <div class="portfolio__slider-item">
+            <div class="portfolio__slider-item-inner">
+              <div class="portfolio__slider-item-info">
+                <p class="portfolio__slider-item-title">IProxy</p>
+                <div class="portfolio__slider-item-text">
+                  A server application that acts as an intermediary between a
+                  client requesting a resource and the server providing that
+                  resource. A distinguishing feature of “IProxy” is the
+                  substitution of OS Fingerprints in real time.
+                </div>
+                <p class="portfolio__slider-item-num">05/05</p>
+              </div>
+              <img
+                class="portfolio__slider-item-img"
+                src="images/portfolio/portfolio__sldier-img-5.png"
+                alt="Project-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <h3 class="contact-title">Share your idea</h3>
+        <div class="contact__inner">
+          <div class="contact__info">
+            <p class="contact-subtitle">Contacts</p>
+            <div class="contact__info-links">
+              <a
+                class="contact__info-mail"
+                href="mailto:ipst.au.contact@gmail.com"
+                >ipst.au.contact@gmail.com</a
+              >
+              <br />
+              <a class="contact__info-tel" href="tel:+618225554174"
+                >+61 822 555 41 74</a
+              >
+            </div>
+          </div>
+
+          <div class="contact__form-wrapper">
+            <p class="contact-subtitle form-subtitle">
+              Leave your application in the form and we will definitely contact
+              you
+            </p>
+            <form class="contact__form" action="">
+              <div class="contact__form-input-title">Name</div>
+              <input
+                class="contact__form-input contact__input-text"
+                type="text"
+                placeholder="Your Name"
+              />
+
+              <div class="contact__form-input-title">Email</div>
+              <input
+                class="contact__form-input contact__input-text"
+                type="email"
+                placeholder="Your Email"
+              />
+
+              <div class="contact__form-input-title">Phone</div>
+              <input
+                class="contact__form-input contact__input-text"
+                type="tel"
+                placeholder="Your Phone"
+              />
+
+              <p class="contact__form-text">or</p>
+
+              <div class="contact__input-file">
+                <label class="contact__input-file-label">
+                  <span class="contact__input-file-text">Download file</span>
+                  <input type="file" />
+                </label>
+              </div>
+
+              <button class="contact__form-btn">Send</button>
+            </form>
           </div>
         </div>
       </div>
