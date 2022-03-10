@@ -1016,4 +1016,13 @@ button {
   .whatwedo-text {
     margin-top: 20px;
   }
+
+  .howwedo__panel-item-text{
+    height: auto;
+  }
+
+  .howwedo__panel-item__tags-item{
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
