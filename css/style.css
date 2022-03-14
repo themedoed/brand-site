@@ -32,6 +32,21 @@ button {
   margin: 0 auto;
 }
 
+.btn {
+  color: #ffffff;
+  background-color: #58a0a3;
+  border-radius: 5px;
+  transition: all .5s;
+}
+
+.btn:hover {
+  background-color: #67B7BA;
+}
+
+.btn:active {
+  background-color: #418184;
+}
+
 .home-whoweare {
   background-color: #fbfbfb;
   z-index: -100;
@@ -113,15 +128,13 @@ button {
   display: none;
 }
 
+
 .contact-link-adpt {
   margin-top: 28px;
-  color: #ffffff;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 30px;
-  background-color: #58a0a3;
-  border-radius: 5px;
   max-height: 50px;
 }
 
@@ -605,21 +618,18 @@ button {
 
 .contact__form-btn {
   margin-top: 44px;
-  color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  background-color: #58a0a3;
   padding: 13px 127px;
-  border-radius: 3px;
 }
 
 @media (max-width: 1330px) {
-  .whoweare__bg-el-1{
+  .whoweare__bg-el-1 {
     right: -200px;
   }
-  
+
   .whatwedo__panel {
     font-size: 24px;
     line-height: 36px;
@@ -629,35 +639,35 @@ button {
     width: 250px;
   }
 
-  .howwedo{
+  .howwedo {
     padding: 20px 0 1px 0;
   }
 
-  .howwedo-bg-el-1{
+  .howwedo-bg-el-1 {
     right: -100px;
   }
 
-  .howwedo-text{
+  .howwedo-text {
     margin-top: 26px;
   }
 
-  .howwedo__panel-row{
+  .howwedo__panel-row {
     display: block;
     margin-bottom: 0;
   }
 
-  .howwedo__panel-item{
+  .howwedo__panel-item {
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .howwedo__panel-item-title{
+  .howwedo__panel-item-title {
     font-size: 28px;
     line-height: 39px;
   }
 
-  .portfolio__slider-item-img{
+  .portfolio__slider-item-img {
     padding-top: 50px;
     width: 50%;
     height: 50%;
@@ -670,19 +680,19 @@ button {
     height: 50%;
   }
 
-  .portfolio__slider-item-inner{
+  .portfolio__slider-item-inner {
     flex-direction: column-reverse;
     max-height: none;
   }
 
-  .portfolio__slider-item-img{
+  .portfolio__slider-item-img {
     padding: 0;
     width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .portfolio__slider-item-info{
+  .portfolio__slider-item-info {
     margin-top: 25px;
   }
 }
@@ -703,11 +713,11 @@ button {
     font-size: 15px;
   }
 
- .whoweare__bg-el-1{
+  .whoweare__bg-el-1 {
     display: none;
   }
 
-  .howwedo-bg-el-1{
+  .howwedo-bg-el-1 {
     display: none;
   }
 }
@@ -879,58 +889,58 @@ button {
     width: 300px;
   }
 
-  .howwedo{
+  .howwedo {
     padding: 20px 0 1px 0;
   }
 
-  .howwedo__panel{
+  .howwedo__panel {
     margin-top: 79px;
   }
 
-  .howwedo__panel-item{
+  .howwedo__panel-item {
     margin-top: 79px;
   }
 
-  .portfolio{
+  .portfolio {
     padding: 60px 0;
   }
 
-  .portfolio-decor-el-1{
+  .portfolio-decor-el-1 {
     width: 104px;
     bottom: 20px;
     left: 220px;
   }
 
-  .portfolio__slider-item-title{
+  .portfolio__slider-item-title {
     font-size: 30px;
     line-height: 45px;
   }
 
-  .portfolio__slider-item-text{
+  .portfolio__slider-item-text {
     font-size: 20px;
     line-height: 30px;
   }
 
-  .portfolio__slider-item-num{
+  .portfolio__slider-item-num {
     font-size: 36px;
     line-height: 54px;
   }
 
-  .portfolio__slider-item-img{
+  .portfolio__slider-item-img {
     width: 343px;
   }
 
-  .contact-title{
+  .contact-title {
     font-size: 40px;
     line-height: 60px;
   }
 
-  .contact__input-text{
+  .contact__input-text {
     font-size: 16px;
     line-height: 24px;
   }
 
-  .contact__input-text::placeholder{
+  .contact__input-text::placeholder {
     font-size: 16px;
     line-height: 24px;
   }
@@ -954,17 +964,17 @@ button {
     left: 40px;
   }
 
-  .contact__inner{
+  .contact__inner {
     display: block;
     margin-top: 48px;
   }
 
-  .contact__form-wrapper{
+  .contact__form-wrapper {
     margin-left: 0;
     margin-top: 58px;
   }
 
-  .contact__input-file-label{
+  .contact__input-file-label {
     margin-top: 22px;
     border: none;
     padding: 0;
@@ -973,11 +983,11 @@ button {
     text-decoration: underline;
   }
 
-  .contact__input-file-text{
+  .contact__input-file-text {
     color: #58a0a3;
   }
 
-  .contact__input-file-label:hover{
+  .contact__input-file-label:hover {
     border: none;
   }
 
@@ -985,7 +995,7 @@ button {
     color: #58a0a3;
   }
 
-  .contact__form-btn{
+  .contact__form-btn {
     width: 100%;
     text-align: center;
   }
@@ -1017,11 +1027,11 @@ button {
     margin-top: 20px;
   }
 
-  .howwedo__panel-item-text{
+  .howwedo__panel-item-text {
     height: auto;
   }
 
-  .howwedo__panel-item__tags-item{
+  .howwedo__panel-item__tags-item {
     font-size: 15px;
     line-height: 20px;
   }
